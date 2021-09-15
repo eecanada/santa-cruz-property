@@ -388,7 +388,7 @@
             <!-- To make this form functional, sign up at-->
             <!-- https://startbootstrap.com/solution/contact-forms-->
             <!-- to get an API token!-->
-            <form id="contactForm" action="https://formspree.io/f/moqyrjev"
+            <form id="contactForm"  action="https://formspree.io/f/moqyrjev"
             method="POST"
           >
               <!-- Name input-->
@@ -399,6 +399,7 @@
                   type="text"
                   placeholder="Enter your name..."
                   data-sb-validations="required"
+                  name="name"
                 />
                 <label for="name">Full name</label>
                 <div class="invalid-feedback" data-sb-feedback="name:required">
@@ -413,6 +414,7 @@
                   type="email"
                   placeholder="name@example.com"
                   data-sb-validations="required,email"
+                  name="email"
                 />
                 <label for="email">Email address</label>
                 <div class="invalid-feedback" data-sb-feedback="email:required">
@@ -430,6 +432,8 @@
                   type="tel"
                   placeholder="(123) 456-7890"
                   data-sb-validations="required"
+                  name="phone"
+
                 />
                 <label for="phone">Phone number</label>
                 <div class="invalid-feedback" data-sb-feedback="phone:required">
@@ -445,6 +449,7 @@
                   placeholder="Enter your message here..."
                   style="height: 10rem"
                   data-sb-validations="required"
+                  name="message"
                 ></textarea>
                 <label for="message">Message</label>
                 <div
@@ -461,6 +466,7 @@
               <div class="d-none" id="submitSuccessMessage">
                 <div class="text-center mb-3">
                   <div class="fw-bolder">Form submission successful!</div>
+                  To activate this form, sign up at
                   <br />
                   <!-- <a href="https://startbootstrap.com/solution/contact-forms"
                     >https://startbootstrap.com/solution/contact-forms</a
@@ -495,11 +501,11 @@
         </div>
 
         <div class="row gx-4 gx-lg-5 justify-content-center mb-5">
-            <div class="col-lg-6 contact-info">
-                <p>Email: <span class="bold-contact"> ernestcooperrealty@gmail.com 
-                </span>  </p>
-                <p> Tel: <span class="bold-contact">310-981-7003</span>   </p>
-            </div>
+          <div class="col-lg-6 contact-info">
+            <p>Email: <span class="bold-contact"> ernestcooperrealty@gmail.com 
+            </span>  </p>
+            <p> Tel: <span class="bold-contact">310-981-7003</span>   </p>
+        </div>
         </div>
 
         <!-- <div class="row gx-4 gx-lg-5 justify-content-center">
