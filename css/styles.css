@@ -12372,6 +12372,15 @@ margin-top: 100px;
 }
 
 .phone :hover{
-  color: #212529;
+  color: #bfbfbf;
   text-decoration: none;
+}
+
+.mail{
+  text-decoration: none;
+}
+
+.mail:hover{
+ color: #bfbfbf
+
 }
