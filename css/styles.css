@@ -12365,3 +12365,13 @@ body {
 #portfolio{
 margin-top: 100px;
 }
+
+.phone{
+  color: #212529;
+  text-decoration: none;
+}
+
+.phone :hover{
+  color: #212529;
+  text-decoration: none;
+}
