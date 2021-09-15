@@ -12216,6 +12216,11 @@ header.masthead p {
 .masthead-video{
   display: none;
 }
+.home-info-description {
+  
+  font-size: 16px;
+  
+}
 }
 
 @media screen and (min-width: 576px) {
