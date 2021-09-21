@@ -1,13 +1,10 @@
 # Santa Cruz Property
 
-<img width="600" alt="Screen Shot 2020-01-14 at 6 33 47 PM" src="">
+<img width="600" alt="Screen Shot 2020-01-14 at 6 33 47 PM" src="https://user-images.githubusercontent.com/53157290/134098759-45077ad9-cef3-46a5-9e14-27d1aada127e.png">
 
 
 # Description 
-
-* 
-
-* 
+* Beautiful real estate landing page for a realtor looking to sell a property.
 
 
 # Technologies Used
@@ -28,5 +25,4 @@
 * As the user scrolls down they are provided more visual media to further highlight the home and raise their interest in it.
 * Contact form is at the bottom of the page to have one last chance to communicate with a realtor. 
 
-# Next Steps
-* 
+
